@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>MOV - Un Bot de WhatsApp</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/png" href="./img/logo.svg">
+	<link rel="stylesheet" type="text/css" href="./css/coloring.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/txtformatting.css">
+	<link rel="stylesheet" type="text/css" href="./css/shadow.css">
+	<link rel="stylesheet" type="text/css" href="./css/loading.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="on">
+	<div class="loading" id="loading-box">
+		<div class="loading-item"><div class="loading-progress"></div></div>
+	</div>
+
+	<main class="main">
+		<div class="navbar">
+			<div class="container">
+				<div class="navbar-nav">
+					<div class="navbar-brand">
+						<span class="navbar-brand-txt"><a class="txt-bold type-1" href="/">MOV</a></span>
+					</div>
+
+					<span class="navbar-toggler" id="toggler"><i onclick="toggleNavbar(this)" class="fas fa-bars"></i></span>
+
+					<div class="navs" id="navs">
+						<div class="navs-item notbtn"><a href="https://wa.me/573023606047?text=%C2%A1Hola%2C%20necesito%20soporte%20para%20Mov!" class="txt-uppercase">Soporte</a></div>
+						<div class="navs-item notbtn"><a href="#" class="txt-uppercase">Invitar</a></div>
+						<div class="navs-item"><a href="https://wa.me/573207953569?text=%C2%A1Hola%20Mov!"><button class="btn txt-uppercase shadow-sm">Enviar Mensaje</button></a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="jumbotron">
+			<div class="container">
+				<div class="jumbotron-items">
+					<div class="jumbotron-item">
+						<span class="jumbotron-t">¿Por qué MOV?</span>
+						<p class="jumbotron-d">MOV es un increíble bot de WhatsApp que puede procesar texto, imágenes, audios y PDFs utilizando la potencia de GPT-3.5 Turbo. ¡Facilita tus tareas de procesamiento de información y obtén respuestas rápidas y precisas!</p>
+						<div class="jumbotron-buttons">
+							<button class="btn" onclick="location.href='#features'">Características</button>
+							<button class="btn blue" onclick="location.href='#'">Invitar</button>
+						</div>
+					</div>
+					<div class="jumbotron-item">
+						<img src="./img/img1.svg" alt="imagen">
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="scroll-down"><i class="fas fa-arrow-down"></i></span>
+	</main>
+
+	<div class="features-box">
+		<h1 class="features-t" id="features">Ofrecemos lo mejor.</h1>
+		<div class="container">
+			<div class="features">
+				<div class="feature">
+					<img class="feature-img" src="./img/feature1.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Procesamiento de Texto</h2>
+						<p class="feature-info-d">MOV puede procesar texto en tiempo real y proporcionar respuestas precisas utilizando GPT-3.5 Turbo.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature2.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Procesamiento de Imágenes</h2>
+						<p class="feature-info-d">Carga imágenes y permite a MOV extraer información y texto de ellas, todo gracias a la magia de GPT-3.5 Turbo.</p>
+					</div>
+				</div>
+				<div class="feature">
+					<img class="feature-img" src="./img/feature3.svg"></img>
+					<div class="feature-info">
+						<h2 class="feature-info-t">Procesamiento de PDFs</h2>
+						<p class="feature-info-d">Convierte archivos PDF en texto editable y obtén respuestas rápidas a tus preguntas con MOV.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="services-box">
+		<h1 class="services-t" id="services">Actualmente ofrecemos servicios en...</h1>
+		<div class="container">
+			<div class="services">
+				<div class="service">
+					<span><i class="fas fa-server"></i> 1 servidores</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-users"></i> 39 usuarios</span>
+				</div>
+				<div class="service">
+					<span><i class="fas fa-hashtag"></i> 5 canales</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-items">
+				<div class="footer-item">
+					<span>&copy; 2023</span>
+				</div>                
+				<div class="footer-item">
+					<span>Desarrollado por Camilo Sanz - derechos reservados.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
